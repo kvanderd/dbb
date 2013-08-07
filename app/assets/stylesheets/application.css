@@ -11,3 +11,22 @@
  *= require_self
  *= require_tree .
  */
+
+#user_nav {
+	background-color: pink;
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	height: 3em;
+	margin-left: -.5em;
+}
+
+#user_nav a {
+	text-decoration: none;
+	margin-left: 1em;
+	font-size: 2em; 
+}
+
+#container {
+	width: 80%;
+}
