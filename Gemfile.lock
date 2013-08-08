@@ -36,6 +36,8 @@ GEM
     better_errors (0.9.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    bootstrap-sass (2.3.2.1)
+      sass (~> 3.2)
     builder (3.0.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -161,11 +163,6 @@ GEM
     treetop (1.4.14)
       polyglot
       polyglot (>= 0.3.1)
-    twitter-bootstrap-rails (2.2.7)
-      actionpack (>= 3.1)
-      execjs
-      rails (>= 3.1)
-      railties (>= 3.1)
     tzinfo (0.3.37)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
@@ -182,6 +179,7 @@ DEPENDENCIES
   annotate
   awesome_print
   better_errors
+  bootstrap-sass
   capybara
   coffee-rails (~> 3.2.1)
   database_cleaner
@@ -199,5 +197,4 @@ DEPENDENCIES
   shoulda-matchers
   simple_form
   therubyracer
-  twitter-bootstrap-rails
   uglifier (>= 1.0.3)
